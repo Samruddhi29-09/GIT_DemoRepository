@@ -9,6 +9,9 @@ public class DemoTestjenkins_Test {
 	public void openBrwsr()throws Exception {
 		WebDriver wd=new ChromeDriver();
 		wd.manage().window().maximize();
+		
+		System.out.println("This is 1st Update");
+		System.out.println("This is 2nd Update");
 		Thread.sleep(5000);
 		wd.quit();
 
